@@ -26,3 +26,32 @@ git add file3
 git push origin feature
 git checkout main
 git merge branch name
+
+
+https://www.openwriteup.com/?page_id=1325
+Create a new branch name “test”
+
+git branch test
+Listing the branch
+
+git branch
+Checkout the branch
+
+git checkout test
+Listing the branch and adding commit the code
+
+git branch
+touch mycode
+git add mycode
+ls
+git commit -m "adding to test branch"
+Pushing code to branch
+
+git push origin test
+Merging and delete the branch
+
+git checkout main
+git merge test
+git branch -d test
+git push origin --delete test
+git push origin main
