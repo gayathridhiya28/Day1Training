@@ -1,0 +1,28 @@
+Git Repository Creation and Branch Startegy
+
+1. git config --global user.name "<your-firstname> <your-lastname>"
+2. git config --global user.email "<your-email@address>"
+EXAMPLES:
+ git config --global user.name "gayathri subramanian"
+git config --global user.email "gayathridhiya2807@gmail.com"
+git config --global --list 
+
+
+ssh-keygen -t rsa
+cat /home/labuser/id_rsa.pub
+
+
+
+rm -rf a  -- remove the file 
+git add 
+git commit -m ""
+git remote add origin git@github.com:gayathridhiya28/Day1Training.git
+
+git diff --> to check the difference between 2 commit
+
+
+git branch branchname  ( git branch feature)
+git add file3
+git push origin feature
+git checkout main
+git merge branch name
